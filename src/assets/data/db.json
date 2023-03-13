@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Satellite Pearl Necklace",
+      "category": "2",
+      "description": "Sterling Silver Gemstone and Pearl Necklace 6mm Round Blue London Topaz,  1ct Each, 4ct Total Mined in Brazil, Cut in India Mixed Freshwater Pearls Sterling Silver Closure Length: 16” Made in China Materials Globally Sourced Strung pearl styles are delicate. If worn in the shower or excessively worn, the string will stretch out overtime. We recommend removing it when showering, exercising, swimming, etc.",
+      "price": "450",
+      "isAvailable": "false",
+      "productImage": "https://i.postimg.cc/0QpL1H03/N10008-SS-16-1280x1707-crop-center.webp"
+    },
+    {
+      "id": 2,
+      "productName": "Disk & Toggle Necklace",
+      "category": 3,
+      "description": "L.A. sunshine in necklace form. Handcrafted from lustrous 14Kt gold the disk and toggle pendant, inspired by sunny skies, can be personalized with an engraving. Wear it solo or layer with similar designs.",
+      "price": 650,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/j5X7CV16/N1101-903-1280x1707-crop-center.webp"
+    },
+    {
+      "id": 3,
+      "productName": "Love Links Bracelet",
+      "category": 6,
+      "description": "Hearts on your sleeve. Dainty heart-shaped links in 10K gold are a sentimental symbol of love and commitment that will make this Love Links Bracelet the perfect gift for someone you cherish. Team it with the Love Links Necklace.",
+      "price": 110,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/xTJM9Z97/llb-1280x1707-crop-center.webp"
+    },
+    {
+      "id": 4,
+      "productName": "Skull Safety Pin Earring",
+      "category": 6,
+      "description": "Punk love. Crafted from 14kt gold, these signature Loren Stewart safety pin earrings are tipped with mini skulls that symbolize rebellious roots. Wear them together or gift one to a close friend..",
+      "price": 150,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/ZR63rBMS/skull-1280x1707-crop-center-1.webp"
+    },
+    {
+      "id": 5,
+      "productName": "Dome Ring",
+      "category": 3,
+      "description": "Understated elegance. The Dome Ring is the sleek stacking piece you’ll never want to take off.  Handcrafted in downtown L.A. from 14Kt gold in an effortless curved silhouette it pairs perfectly with similarly simple bands. Try stacking two on one finger for extra impact.",
+      "price": 345,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/FKDwhzZh/domering-1280x1707-crop-center.webp"
+    },
+    {
+      "id": 6,
+      "productName": "Baby Dome Ring",
+      "category": 3,
+      "description": "Understated elegance. The Baby Dome Ring is the sleek stacking piece you’ll never want to take off.  Handcrafted in downtown L.A. from 14Kt gold in an effortless curved silhouette it pairs perfectly with similarly simple bands. Try stacking two on one finger for extra impact.",
+      "price": 340,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/sXG30bFP/R20006-67-5dc66af0-e03e-4bf4-b83c-13d94f400b7d-1280x1707-crop-center.webp"
+    },
+    {
+      "id": 7,
+      "productName": "XL Boxy Long Link Bracelet",
+      "category": 6,
+      "description": "14Kt Yellow Gold Hollow Long Link Chain",
+      "price": 377,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/XvGwQ7vs/N11046-YG-1-6f93e24c-f92f-4d81-a596-3ff85f031cd2-1280x1707-crop-center.webp"
+    },
+    {
+      "id": 8,
+      "productName": "XL Lightweight Havana Chain Anklet",
+      "category": 7,
+      "description": "Artful androdeny. The dual nature of Los Angeles is the inspiration for this tactile Havana Chain Anklet. Crafted from recycled 14Kt gold, its tightly interlocking XL links reflect the light beautifully and complement both masculine and feminine styles.  ",
+      "price": 471,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/QN9dC9y4/havank-1280x1707-crop-center.webp"
+    },
+    {
+      "id": 9,
+      "productName": "Disk Pendant",
+      "category": 5,
+      "description": "Sentimental? Same. The Disk Pendant handcrafted in L.A. from 14Kt gold is the perfect piece to engrave with a memorable message. Make it even more personal by stringing it from a chain of your choice. ",
+      "price": 355,
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/vHwxdtZL/diskpend-1280x1707-crop-center.webp"
+    },
+    {
+      "id": 10,
+      "productName": "Jade Coin Necklace X Fong Min Liao",
+      "category": 2,
+      "description": "Fortune favors the bold. In ancient Chinese traditions, jade is known as a protective stone that brings luck and prosperity. Teamed with a gold coin reminiscent of the currency of Imperial China and strung from a delicate chain, the Jade Coin Necklace imbues a classic good luck charm with elevated elegance. Created in collaboration with the artist Fong Min Liao. ",
+      "price": "225",
+      "isAvailable": true,
+      "productImage": "https://i.postimg.cc/nrc5sDHd/Jade-Coin-Necklace-XFong-Min-Liaoshotonmodel-1280x1707-crop-center.webp"
+    }
+  ]
+}

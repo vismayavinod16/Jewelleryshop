@@ -1,0 +1,140 @@
+<div>
+    <h1 class="p-5 text-center"
+        style="font-family:Georgia, 'Times New Roman', Times, serif ; color: rgb(159, 135, 80);">New in Selection of
+        Jewellery</h1>
+
+</div>
+<div class="container text-center ">
+    <div class="row">
+        <div class="p-5 col-3">
+            <a (click)="filter('')">
+                <img style="height: 330px; width: 280px;" src="https://i.postimg.cc/5NMKfgbx/personalize.webp" alt="">
+                <h6>Personalise it</h6>
+            </a>
+        </div>
+        <div class="p-5 col-3">
+            <a (click)="filter(6)">
+                <img style="height: 330px; width:280px ;" src="https://i.postimg.cc/gJnQ62Tm/earing.webp" alt="">
+                <h6>Earrings</h6>
+
+            </a>
+        </div>
+        <div class="p-5 col-3">
+            <a (click)="filter(2)">
+                <img style="height: 330px; width:280px ;" src="https://i.postimg.cc/HnfF417R/neclace.webp" alt="">
+                <h6>Necklace</h6>
+
+            </a>
+        </div>
+
+
+        <div class="p-5 col-3">
+            <a (click)="filter(3)">
+                <img style="height: 330px; width:280px;" src="https://i.postimg.cc/HLPPHCsK/rings.webp" alt="">
+                <h6>Rings</h6>
+
+            </a>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<!-- <div class="bg-dark" style="background: url(https://i.postimg.cc/ydZnHgGg/65307476-467631577147616-1397793187727310665-n.webp); height: 475;">
+    </div> -->
+
+
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div *ngFor="let i of filterproducts | filter:searchkey:'productName'" class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img height="300px" class="card-img-top" src="{{i.productImage}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            <!-- <p>{{i.description}}</p> -->
+                            <!-- Product price-->
+                            $ {{i.price}}
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                href="product/view-product/{{i.id}}">View options</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img style="height: 500px;width: 100%;" src=" https://i.postimg.cc/02bytgwQ/10101732769822.webp"
+                class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img style="height: 500px;" src="https://i.postimg.cc/XNHfDy2w/lb-luxury-rewards-x-1024x1024.webp"
+                class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img style="height: 500px;" src="https://i.postimg.cc/kGDqh8DZ/9924857724958.webp" class="d-block w-100"
+                alt="...">
+        </div>
+    </div>
+</div>
+<h1 class="text-center p-5 " style="color: #313131 ; font-weight: 200;
+font-style: normal ;text-transform: uppercase;
+    position: relative;
+    margin-bottom: 38px;letter-spacing: 4px;
+    font-variant-ligatures: none;
+    line-height: 35px;
+font-size: 36px; ">STORIES <br>-------</h1>
+<div class="row">
+    <div class="p-0 col-3" style="margin-left: 180px;">
+        <img height="200px"width="350px" src="https://i.postimg.cc/T3SQ4NcG/20120604-coffee.jpg" alt="">
+        <h3 class="" style="font-weight: 200;
+        font-style: normal;
+        font-size: 20px;
+        margin-top: 2em;
+        min-height: 40px;
+        line-height: 20px;
+        text-transform: none;
+        color: initial;">Share Your Stories With Us</h3>
+        <a style="color: initial;" href="">Discover The Campign</a>
+
+    </div>
+    <div class="p-0 col-3">
+        <img height="200px" width="350px" src="https://i.postimg.cc/d18Y1y0k/https-hypebeast-com-wp-content-blogs-dir-6-files-2021-07-best-minimalist-jewelry-brands-philippine.jpg"
+            alt="">
+            <h3 class="" style="font-weight: 200;
+            font-style: normal;
+            font-size: 20px;
+            margin-top: 2em;
+            min-height: 40px;
+            line-height: 20px;
+            text-transform: none;
+            color: initial;">Link to Love</h3>
+            <a style="color: initial;" href="">A New Campign</a>
+
+    </div>
+    <div class="p-0 col-3" >
+        <img height="200px" width="400px" src="https://i.postimg.cc/DzcksbGt/jewelry-brands-80272-1644008749791-main-700x0c.jpg" alt="">
+        <h3 class="" style="font-weight: 200;
+        font-style: normal;
+        font-size: 20px;
+        margin-top: 2em;
+        min-height: 40px;
+        line-height: 20px;
+        text-transform: none;
+        color: initial;">Purchase</h3>
+        <a style="color: initial;" href="">It's Rever time</a>
+
+    </div>
+</div> <br>

@@ -1,0 +1,50 @@
+lazy loading technique
+to load pages have more traffic
+
+module creation
+ng g module moduleName
+
+-lazy loaded module creation
+ng g  module moduleName --route moduleName --module rootmoduleName
+
+necklace:2
+rings:3
+bracelets:4
+pendent:5
+Earings:6
+anklet"7
+
+access data from componenet path
+--------------------------------
+ActivatedRoute    //class
+params            //method
+
+
+to create pipe
+create folder from desktop app product the openn terminal
+
+ng g pipe pipe name
+
+npx json-server --watch db.json --port 3000
+
+
+BehaviourSubject in Angular
+------------------------------------
+rxjs -reactive extension for javasript
+<!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="height: 500px;" src="https://i.postimg.cc/1XRfRfXc/10072189141022.webp" class="d-block w-100" alt="...">
+            <h1>HELLO</h1>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 500px;" src="https://i.postimg.cc/02bytgwQ/10101732769822.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img style="height: 500px;" src="https://i.postimg.cc/kGDqh8DZ/9924857724958.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        https://i.postimg.cc/XNHfDy2w/lb-luxury-rewards-x-1024x1024.webp
+      </div>
+
+
